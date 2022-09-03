@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Vegetable Index</title>
+  </head>
+  <body>
+    <h1>Vegetables Index Page</h1>
+    <ul>
+      <% for (let i = 0; i < allVegetables.length; i++) { %>
+     <li>
+       <a href="/vegetables/<%=i%>">
+         <%=allVegetables[i].name%>
+       </a>
+     </li>
+     <% } %>
+    </ul>
+  </body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/css/app.css">
+    <title></title>
+  </head>
+  <body>
+<div class="container"></div>
+<h1><%= budget.name %></h1>
+<form action="/budgets">
+  <input class="button" type="submit" value="Back to Budget Index" />
+</form>
+<!-- <a href="/budgets">Back to Budget Index</a><br> -->
+
+<br><b>date</b>
+<p><%= budget.date %></p>
+<b>name</b>
+<p><%= budget.name %></p>
+<b> from </b>
+<p><%= budget.from %></p>
+<b>amount</b>
+<p><%= budget.amount %></p>
+<b>tags</b>
+<p><%= budget.tags %></p>
+  </body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../style.css">
+    <title></title>
+  </head>
+  <body>
+    <h1>Gotta Catch 'Em All</h1>
+
+    <style type="text/css">
+  body {
+    color: salmon;
+    background-color: lightblue;
+  }
+  h1 {
+    font-family: "Lucida Console", "Courier New", monospace;
+  }
+</style>
+<ul>
+
+      <li>
+
+          <h2>
+          <%=pokemon.name.charAt(0).toUpperCase() + pokemon.name.slice(1)%>
+          </h2>
+          <img src="<%=pokemon.img%>.jpg" >
+
+      </li>
+
+    </ul>
+
+    <a href="/pokemon">BACK</a>
+
+
+</body>

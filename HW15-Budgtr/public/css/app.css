@@ -1,0 +1,19 @@
+body {
+  background-color: salmon;
+}
+
+p {
+  margin-left: 30px;
+}
+
+.button {
+  background-color: white;
+  font-size: 20px;
+  border-radius: 12px;
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: #4caf50;
+  color: white;
+}

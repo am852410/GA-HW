@@ -1,0 +1,44 @@
+body {
+  background-color: teal;
+}
+
+h1 {
+  font-size: 75px;
+  color: yellow;
+  -webkit-text-stroke: 2px red;
+  text-align: center;
+}
+
+.button {
+  background-color: white;
+  font-size: 20px;
+  padding: 14px 40px;
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: yellow;
+  color: black;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.create-button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  font-size: 20px;
+  padding: 14px 40px;
+  transition-duration: 0.4s;
+}
+
+.create-button:hover {
+  background-color: yellow;
+  color: black;
+}

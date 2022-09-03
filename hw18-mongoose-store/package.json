@@ -1,0 +1,19 @@
+{
+  "name": "hw18-mongoose-store",
+  "version": "1.0.0",
+  "description": "HW-18 Mongoose-Store",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.generalassemb.ly:am852410/hw18-mongoose-store.git"
+  },
+  "author": "Antonio Mendoza",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  }
+}
